@@ -1,22 +1,35 @@
+<a href="https://github.com/VoltAgent/voltagent">
+     <img width="1500" height="801" alt="claude-skills" src="https://github.com/user-attachments/assets/d012a0d2-cec3-4630-ba5e-acc339dbe6cf" />
+</a>
+
+
+<br/>
+<br/>
+
 <div align="center">
+    <strong>Curated collection of DESIGN.md files inspired by popular websites.</strong>
+    <br />
+    <br />
 
-# Awesome Design MD
+</div>
 
-**Curated collection of DESIGN.md files inspired by popular websites.**
-
-Copy a DESIGN.md into your project, tell your AI agent "build me a page that looks like [popular website]" and get pixel-perfect UI that actually matches.
-
-<br />
+<div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md%20count-31-10b981?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-design-md?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-design-md)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
-
+</div>
 </div>
 
-<br />
+
+
+
+# Awesome Design MD
+
+Copy a DESIGN.md into your project, tell your AI agent "build me a page that looks like this" and get pixel-perfect UI that actually matches.
+
 
 ## What is DESIGN.md?
 
