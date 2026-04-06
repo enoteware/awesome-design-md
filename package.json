@@ -1,0 +1,24 @@
+{
+  "name": "awesome-design-md",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/VoltAgent/voltagent\">      <img width=\"1500\" height=\"801\" alt=\"claude-skills\" src=\"https://github.com/user-attachments/assets/d012a0d2-cec3-4630-ba5e-acc339dbe6cf\" /> </a>",
+  "main": "inject_listener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enoteware/awesome-design-md.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/enoteware/awesome-design-md/issues"
+  },
+  "homepage": "https://github.com/enoteware/awesome-design-md#readme",
+  "dependencies": {
+    "glob": "^13.0.6"
+  }
+}

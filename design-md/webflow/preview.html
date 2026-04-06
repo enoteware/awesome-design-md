@@ -142,5 +142,38 @@
 <section class="section"><div class="section-label">08 / Elevation</div><h2 class="section-title">Depth</h2>
 <div class="elevation-grid"><div class="elevation-card" style="border:1px solid var(--border);"><div class="elevation-label">Flat</div><div class="elevation-desc">Border only</div></div><div class="elevation-card" style="box-shadow:rgba(0,0,0,0.09) 0px 3px 7px, rgba(0,0,0,0.08) 0px 13px 13px, rgba(0,0,0,0.04) 0px 30px 18px;"><div class="elevation-label">5-Layer</div><div class="elevation-desc">Cascading shadow stack</div></div></div></section>
 <footer class="footer">Generated from <a href="https://webflow.com/">webflow.com</a> DESIGN.md — awesome-design-md</footer>
+
+<script>
+window.addEventListener('message', (e) => {
+  if (e.data && e.data.type === 'UPDATE_THEME' && e.data.colors && e.data.colors.length > 0) {
+    const primary = e.data.colors[0];
+    const root = document.documentElement;
+    
+    let styleTag = document.getElementById('dynamic-theme-override');
+    if (!styleTag) {
+      styleTag = document.createElement('style');
+      styleTag.id = 'dynamic-theme-override';
+      document.head.appendChild(styleTag);
+    }
+    
+    styleTag.innerHTML = `
+      :root {
+        --primary: ${primary} !important;
+        --accent: ${primary} !important;
+        --button-bg: ${primary} !important;
+        --apple-blue: ${primary} !important;
+        --link-blue: ${primary} !important;
+        --blue: ${primary} !important;
+        --brand: ${primary} !important;
+      }
+      .bg-primary, .bg-accent, .bg-blue-600 { background-color: ${primary} !important; }
+      .text-primary, .text-accent { color: ${primary} !important; }
+      button { background-color: ${primary} !important; border-color: ${primary} !important; }
+      a { color: ${primary} !important; }
+    `;
+  }
+});
+</script>
+
 </body>
 </html>
